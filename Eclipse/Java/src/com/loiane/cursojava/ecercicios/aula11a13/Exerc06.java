@@ -9,7 +9,8 @@ public class Exerc06 {
 		System.out.println("Calculo da Area do Circulo");
 		System.out.println("Digite o raio:");
 		double raio = scam.nextDouble();
-		double area = (raio*raio)*3.14;
+		//double area = (raio*raio)*3.14;
+		double area = Math.pow (raio, 2)* Math.PI;		
 		System.out.println("Sua area é: "+ area+" m²");
 	}
 

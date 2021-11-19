@@ -10,11 +10,11 @@ public class Exerc13mais1 {
 		System.out.println("Download");
 		System.out.println("Qual o tamanho do arquivo(MB) e a velocidade de download(Mbps): ");
 		
-		double mb = scam.nextDouble();
-		double mbps = scam.nextDouble();
-		double tempo = (mb/mbps) *0.60;
-		
-		System.out.println("Tempo extimado: "+ tempo );
+		int mb = scam.nextInt();
+		int mbps = scam.nextInt();
+		int tempo = (mb/mbps) /6;
+
+		System.out.println("Tempo extimado: "+ tempo+" min ");
 		
 	}
 
