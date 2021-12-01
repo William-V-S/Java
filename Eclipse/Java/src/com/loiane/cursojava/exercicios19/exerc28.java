@@ -15,10 +15,10 @@ public class exerc28 {
 			vetorB[j] += vetorA[i];
 		}
 		for (int i : vetorA) {
-			System.out.println(i);
-		}
+			System.out.print(i+" ");
+		}System.out.println("");
 		for (int i : vetorB) {
-			System.out.println(i);
+			System.out.print(i+" ");
 		}
 		
 
