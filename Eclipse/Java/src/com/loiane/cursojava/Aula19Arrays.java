@@ -1,6 +1,5 @@
 package com.loiane.cursojava;
 
-import java.util.Iterator;
 
 public class Aula19Arrays {
 
