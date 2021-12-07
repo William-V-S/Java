@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Exercconta {
 
 	public static void main(String[] args) {
-		conta27 william = new conta27();
-		william.numconta = "756.487.784-47";
-		william.saldo= 25.41;
-		william.status = true;
+		conta27 conta = new conta27();
+		conta.numconta = "756.487.784-47";
+		conta.saldo= 25.41;
+		conta.status = true;
 		int resposta = 1;
 		double dinheiro;
 		
@@ -21,15 +21,15 @@ public class Exercconta {
 			System.out.println("4 - Sair");
 			resposta = scam.nextInt();
 			switch (resposta) {
-				case 1:william.exibirsaldo();;break;
+				case 1:conta.exibirsaldo();;break;
 				case 2:
 					System.out.println("Quanto gostaria de depositar? ");
 					dinheiro = scam.nextDouble();
-					william.adicionardinheiro(dinheiro);break;
+					conta.adicionardinheiro(dinheiro);break;
 				case 3:
 					System.out.println("Quanto gostaria de Sacar? ");
 					dinheiro = scam.nextDouble();
-					william.obtersaque(dinheiro, william.saldo);break;
+					conta.obtersaque(dinheiro,conta.saldo);break;
 				case 4:System.out.println("Tenha um bom dia!!");break;
 				default:System.out.println("Escolha Invalida");;break;
 			}
