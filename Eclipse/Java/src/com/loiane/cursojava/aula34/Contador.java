@@ -13,7 +13,7 @@ public class Contador {
 	}
 	
 	public static void incrementa(int num) {
-		getCont(num);
+		getCont(cont+num);
 	}
 	public static void decremento(int num) {
 		getCont(cont-num);
