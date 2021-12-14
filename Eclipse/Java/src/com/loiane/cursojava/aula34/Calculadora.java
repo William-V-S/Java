@@ -21,4 +21,13 @@ public class Calculadora {
 		}
 		return total;
 	}
+	
+	public static int fatorial(int num) {
+		int total = 1;
+		while (num != 1) {
+			total*=num;
+			num--;
+		}
+		return total;
+	}
 }
