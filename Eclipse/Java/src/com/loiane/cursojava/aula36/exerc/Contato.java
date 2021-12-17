@@ -24,4 +24,8 @@ public class Contato {
 		this.email = email;
 	}
 	
+	public String exibir() {
+		return "nome: "+nome+"; telefone: "+telefone+"; email: "+email;
+	}
+	
 }
